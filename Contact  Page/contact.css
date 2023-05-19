@@ -1,0 +1,161 @@
+.body{
+  font-family: barlow, arial;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+.p{
+  font-family: barlow, arial;
+}
+
+
+
+.header-parent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -1px;
+  width: 103.9%;
+}
+
+.under-header{
+ width: 103.9%;
+ margin-left: -1rem;
+ height: 100%;
+ 
+}
+
+.background-image-container{
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  
+}
+
+.logo-parent{
+  display: flex;
+  justify-content: center;
+  padding-top: 3em;
+}
+
+
+.contact-form{
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  justify-content: space-evenly; 
+  /*j-content align items on the main acces, so it
+  fles is row, then main axis is the row & align-itmes
+  is align on cross axis*/ 
+  flex-wrap: wrap;
+ /* when flex-wrap is set, then we can use, align-content
+    this lets you deice how they align as they move*/
+}
+
+ /* flex: is f-grow; shrink; basis*/
+
+.left-section{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: barlow,arial;
+  color: rgb(76, 177, 160);
+}
+
+/*icons keep streching bc its flex 1 in container*/
+
+.icon-text-container{
+  column-gap: 30px;
+  padding-left: 30px;
+  padding: 20px 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: none;
+  align-items: center;
+  line-height: 200%;
+  
+}
+
+.icons-container{ 
+  width: 2rem;
+  
+}
+
+
+.left-text{
+  border: 2px solid black;
+}
+
+.right-section{
+  background-color: rgb(255, 255, 252);
+  flex:1.2;
+  width: 100vw;
+  text-align: center;
+  padding: 50px 50px;
+}
+
+/*input box specifics*/
+
+.firstname-lastname{
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-text{
+  font-family: Barlow, arial;
+  font-size: 56px;
+  margin: 0px;
+  padding: 20px 70px;
+}
+
+.input-box{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: left;
+  color: rgb(76, 177, 160);
+  padding: 10px;
+}
+
+.input-box input{
+  padding: 10px;
+  font-size: 1.1em;
+  outline: none;
+  border: 1px solid #333;
+}
+
+.input-box textarea{
+  padding: 10px;
+  font-size: 1em;
+  outline: none;
+  border: 1px solid #333;
+  resize: none;
+  min-height: 150px;
+  margin-bottom: 10px;
+}
+
+.email-form .input-box,
+.message-form .input-box{
+  width: 100%;
+}
+
+.input-box input[type="submit"]
+{
+  background-color: rgba(76, 177, 160, 0.467);
+  color: #fff;
+  border: none;
+  font-size: 1em;
+  max-width: 120px;
+  font-weight: bold;
+  padding: 10px 30px;
+  text-align: center;
+  cursor: pointer;
+  align-self: flex-end;
+  transition: 0.15;
+}
+
+.input-box input[type="submit"]:hover{
+  background-color: white;
+  color: rgba(76, 177, 160, 0.467);
+}

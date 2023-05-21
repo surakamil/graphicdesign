@@ -175,7 +175,8 @@ body{
 
 .box-container{
   display: grid;
-  grid-template-columns: 1 fr 1fr;
+  grid-template-columns: 1fr;
+  width: 90vw;
   padding: 3.2rem;
 }
 

@@ -178,6 +178,8 @@ body{
   display: grid;
   grid-template-columns: 1fr;
   padding: 3.2rem;
+  align-items: center;
+  justify-content: center;
 }
 
 

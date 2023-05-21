@@ -177,7 +177,6 @@ body{
 .box-container{
   display: grid;
   grid-template-columns: 1fr;
-  width: 90vw;
   padding: 3.2rem;
 }
 
@@ -187,6 +186,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap; 
+    width: 100vw;
  }
 }
 

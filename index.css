@@ -187,6 +187,7 @@ body{
     flex-direction: row;
     flex-wrap: nowrap; 
     width: 100vw;
+    padding: 0rem;
  }
 }
 

@@ -74,7 +74,18 @@
   flex-wrap: none;
   align-items: center;
   line-height: 200%;
+}
+
+.left-text-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.left-text-container a{
   text-decoration: none;
+  color: rgb(76, 177, 160);
+
+
 }
 
 .icons-container{ 

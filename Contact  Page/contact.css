@@ -170,3 +170,13 @@
   background-color: white;
   color: rgba(76, 177, 160, 0.467);
 }
+
+.btn{
+  font-family: barlow,Arial;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  width: 10rem;
+  background-color: rgb(76, 177, 160);
+  color: white;
+  border:0px;
+}

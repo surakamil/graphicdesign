@@ -2,8 +2,10 @@ body{
   font-family: 'Barlow', sans-serif;
   font-size: 16px;
   max-width: 100%;
+  max-height: 100%;
   overflow-x: hidden;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 /*header*/
@@ -293,8 +295,8 @@ footer{
     .contact-text,
     .my-work-text,
     .homepage-text{
-      padding: 0rem 0rem;
-      margin: 0rem 0rem;
+      padding: 0;
+      margin: 0;
       font-size: 5vw;
       border: none;
       column-gap: 8vw;

@@ -347,11 +347,7 @@ footer{
 
 @media (max-width: 1100px) {
   .background-image-container{
-    background-position-x: -30rem;
-    background-position-y: 10rem;
-    background-size: 200vw;
-    background-position: cover;
-    background-repeat: no-repeat;
+
    
   }
   

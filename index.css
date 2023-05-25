@@ -322,7 +322,8 @@ footer{
 @media (min-width: 700px) {
   .parent-media {
     grid-auto-flow: column;
-    grid-auto-columns: 1;  
+    grid-auto-columns: 1; 
+    width: 80vw; 
   }
 
 }

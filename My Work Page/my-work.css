@@ -81,6 +81,7 @@ p{
   column-gap: 10rem;
   flex-wrap: wrap;
   justify-content: center;
+  font-family: Barlow;
   }
  
  .left-section-footer img{

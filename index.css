@@ -68,7 +68,6 @@ body{
 }
 
 
-
 .view-b{
   position: absolute;
   background-color: rgb(0, 169, 157);
@@ -101,7 +100,6 @@ body{
   gap: 1rem;
   padding: 3rem;
 }
-
 
 
 .child-info{
@@ -323,7 +321,6 @@ footer{
   .parent-media {
     grid-auto-flow: column;
     grid-auto-columns: 1; 
-    width: 80vw; 
   }
 
 }
